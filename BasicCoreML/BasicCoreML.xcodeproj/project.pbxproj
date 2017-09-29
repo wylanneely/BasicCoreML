@@ -12,6 +12,8 @@
 		B2F1ECAB1F7F036F00944113 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F1ECA91F7F036F00944113 /* Main.storyboard */; };
 		B2F1ECAD1F7F036F00944113 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F1ECAC1F7F036F00944113 /* Assets.xcassets */; };
 		B2F1ECB01F7F036F00944113 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F1ECAE1F7F036F00944113 /* LaunchScreen.storyboard */; };
+		B2F1ECB81F7F07E000944113 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F1ECB71F7F07E000944113 /* ImageProcessor.swift */; };
+		B2F1ECBA1F7F0C7000944113 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B2F1ECB91F7F0B4A00944113 /* GoogLeNetPlaces.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B2F1ECAC1F7F036F00944113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2F1ECAF1F7F036F00944113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2F1ECB11F7F036F00944113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F1ECB71F7F07E000944113 /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+		B2F1ECB91F7F0B4A00944113 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 		B2F1ECA41F7F036F00944113 /* BasicCoreML */ = {
 			isa = PBXGroup;
 			children = (
+				B2F1ECB91F7F0B4A00944113 /* GoogLeNetPlaces.mlmodel */,
 				B2F1ECA51F7F036F00944113 /* AppDelegate.swift */,
 				B2F1ECA71F7F036F00944113 /* ViewController.swift */,
 				B2F1ECA91F7F036F00944113 /* Main.storyboard */,
+				B2F1ECB71F7F07E000944113 /* ImageProcessor.swift */,
 				B2F1ECAC1F7F036F00944113 /* Assets.xcassets */,
 				B2F1ECAE1F7F036F00944113 /* LaunchScreen.storyboard */,
 				B2F1ECB11F7F036F00944113 /* Info.plist */,
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2F1ECA81F7F036F00944113 /* ViewController.swift in Sources */,
+				B2F1ECB81F7F07E000944113 /* ImageProcessor.swift in Sources */,
 				B2F1ECA61F7F036F00944113 /* AppDelegate.swift in Sources */,
+				B2F1ECBA1F7F0C7000944113 /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
